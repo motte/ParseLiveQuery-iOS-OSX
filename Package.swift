@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ParseLiveQuery-iOS-OSX",
+    name: "ParseLiveQuery",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -22,7 +22,7 @@ let package = Package(
             name: "ParseLiveQuery",
             dependencies: []),
         .testTarget(
-            name: "ParseLiveQuery-iOS-OSXTests",
+            name: "ParseLiveQueryTests",
             dependencies: ["ParseLiveQuery"]),
     ]
 )
